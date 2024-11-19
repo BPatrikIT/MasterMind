@@ -114,6 +114,9 @@
     <Content Include="files\images\ballBlue.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="files\images\ballCover.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <Content Include="files\images\ballGreen.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

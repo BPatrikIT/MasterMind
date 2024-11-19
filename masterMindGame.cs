@@ -20,6 +20,19 @@ namespace MasterMind
         public string[] colors = new string[4];
         public string[] answer = new string[4];
 
+        // For debuging
+
+        public void showAnswer()
+        {
+            answersCover.Visible = false;
+        }
+
+        public void hideAnswers()
+        {
+            answersCover.Visible = true;
+        }
+
+
         public void disableButtons()
         {
             ballRed.Enabled = false;
@@ -69,12 +82,14 @@ namespace MasterMind
                 Thread th = new Thread(openWinScreen);
                 th.Start();
                 disableButtons();
+                showAnswer();
             }
             else if (currentLine == maxLines - 1)
             {
                 Thread th = new Thread(openLoseScreen);
                 th.Start();
                 disableButtons();
+                showAnswer();
             }
             else
             {

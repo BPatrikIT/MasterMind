@@ -138,6 +138,7 @@
             this.answerBall61 = new System.Windows.Forms.PictureBox();
             this.answerBall60 = new System.Windows.Forms.PictureBox();
             this.buttonReset = new System.Windows.Forms.PictureBox();
+            this.answersCover = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.ballRed)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ballYellow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ballGreen)).BeginInit();
@@ -247,15 +248,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.answerBall61)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.answerBall60)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonReset)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.answersCover)).BeginInit();
             this.SuspendLayout();
             // 
             // ballRed
             // 
             this.ballRed.BackColor = System.Drawing.Color.Transparent;
             this.ballRed.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ballRed.Location = new System.Drawing.Point(69, 160);
+            this.ballRed.Location = new System.Drawing.Point(104, 246);
+            this.ballRed.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ballRed.Name = "ballRed";
-            this.ballRed.Size = new System.Drawing.Size(45, 44);
+            this.ballRed.Size = new System.Drawing.Size(68, 68);
             this.ballRed.TabIndex = 0;
             this.ballRed.TabStop = false;
             this.ballRed.Click += new System.EventHandler(this.ballRed_Click);
@@ -264,9 +267,10 @@
             // 
             this.ballYellow.BackColor = System.Drawing.Color.Transparent;
             this.ballYellow.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ballYellow.Location = new System.Drawing.Point(69, 218);
+            this.ballYellow.Location = new System.Drawing.Point(104, 335);
+            this.ballYellow.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ballYellow.Name = "ballYellow";
-            this.ballYellow.Size = new System.Drawing.Size(45, 44);
+            this.ballYellow.Size = new System.Drawing.Size(68, 68);
             this.ballYellow.TabIndex = 1;
             this.ballYellow.TabStop = false;
             this.ballYellow.Click += new System.EventHandler(this.ballYellow_Click);
@@ -275,9 +279,10 @@
             // 
             this.ballGreen.BackColor = System.Drawing.Color.Transparent;
             this.ballGreen.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ballGreen.Location = new System.Drawing.Point(69, 276);
+            this.ballGreen.Location = new System.Drawing.Point(104, 425);
+            this.ballGreen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ballGreen.Name = "ballGreen";
-            this.ballGreen.Size = new System.Drawing.Size(45, 44);
+            this.ballGreen.Size = new System.Drawing.Size(68, 68);
             this.ballGreen.TabIndex = 2;
             this.ballGreen.TabStop = false;
             this.ballGreen.Click += new System.EventHandler(this.ballGreen_Click);
@@ -286,9 +291,10 @@
             // 
             this.ballTeal.BackColor = System.Drawing.Color.Transparent;
             this.ballTeal.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ballTeal.Location = new System.Drawing.Point(69, 334);
+            this.ballTeal.Location = new System.Drawing.Point(104, 514);
+            this.ballTeal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ballTeal.Name = "ballTeal";
-            this.ballTeal.Size = new System.Drawing.Size(45, 44);
+            this.ballTeal.Size = new System.Drawing.Size(68, 68);
             this.ballTeal.TabIndex = 3;
             this.ballTeal.TabStop = false;
             this.ballTeal.Click += new System.EventHandler(this.ballTeal_Click);
@@ -297,9 +303,10 @@
             // 
             this.ballBlue.BackColor = System.Drawing.Color.Transparent;
             this.ballBlue.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ballBlue.Location = new System.Drawing.Point(69, 392);
+            this.ballBlue.Location = new System.Drawing.Point(104, 603);
+            this.ballBlue.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ballBlue.Name = "ballBlue";
-            this.ballBlue.Size = new System.Drawing.Size(45, 44);
+            this.ballBlue.Size = new System.Drawing.Size(68, 68);
             this.ballBlue.TabIndex = 4;
             this.ballBlue.TabStop = false;
             this.ballBlue.Click += new System.EventHandler(this.ballBlue_Click);
@@ -308,9 +315,10 @@
             // 
             this.ballPurple.BackColor = System.Drawing.Color.Transparent;
             this.ballPurple.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ballPurple.Location = new System.Drawing.Point(69, 450);
+            this.ballPurple.Location = new System.Drawing.Point(104, 692);
+            this.ballPurple.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ballPurple.Name = "ballPurple";
-            this.ballPurple.Size = new System.Drawing.Size(45, 44);
+            this.ballPurple.Size = new System.Drawing.Size(68, 68);
             this.ballPurple.TabIndex = 5;
             this.ballPurple.TabStop = false;
             this.ballPurple.Click += new System.EventHandler(this.ballPurple_Click);
@@ -319,9 +327,10 @@
             // 
             this.guess00.BackColor = System.Drawing.Color.Transparent;
             this.guess00.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess00.Location = new System.Drawing.Point(201, 89);
+            this.guess00.Location = new System.Drawing.Point(302, 137);
+            this.guess00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess00.Name = "guess00";
-            this.guess00.Size = new System.Drawing.Size(27, 27);
+            this.guess00.Size = new System.Drawing.Size(40, 42);
             this.guess00.TabIndex = 6;
             this.guess00.TabStop = false;
             // 
@@ -329,9 +338,10 @@
             // 
             this.guess01.BackColor = System.Drawing.Color.Transparent;
             this.guess01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess01.Location = new System.Drawing.Point(243, 89);
+            this.guess01.Location = new System.Drawing.Point(364, 137);
+            this.guess01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess01.Name = "guess01";
-            this.guess01.Size = new System.Drawing.Size(27, 27);
+            this.guess01.Size = new System.Drawing.Size(40, 42);
             this.guess01.TabIndex = 7;
             this.guess01.TabStop = false;
             // 
@@ -339,9 +349,10 @@
             // 
             this.guess02.BackColor = System.Drawing.Color.Transparent;
             this.guess02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess02.Location = new System.Drawing.Point(285, 89);
+            this.guess02.Location = new System.Drawing.Point(428, 137);
+            this.guess02.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess02.Name = "guess02";
-            this.guess02.Size = new System.Drawing.Size(27, 27);
+            this.guess02.Size = new System.Drawing.Size(40, 42);
             this.guess02.TabIndex = 8;
             this.guess02.TabStop = false;
             // 
@@ -349,9 +360,10 @@
             // 
             this.guess03.BackColor = System.Drawing.Color.Transparent;
             this.guess03.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess03.Location = new System.Drawing.Point(327, 89);
+            this.guess03.Location = new System.Drawing.Point(490, 137);
+            this.guess03.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess03.Name = "guess03";
-            this.guess03.Size = new System.Drawing.Size(27, 27);
+            this.guess03.Size = new System.Drawing.Size(40, 42);
             this.guess03.TabIndex = 9;
             this.guess03.TabStop = false;
             // 
@@ -359,9 +371,10 @@
             // 
             this.buttonUndo.BackColor = System.Drawing.Color.Transparent;
             this.buttonUndo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonUndo.Location = new System.Drawing.Point(562, 443);
+            this.buttonUndo.Location = new System.Drawing.Point(843, 682);
+            this.buttonUndo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonUndo.Name = "buttonUndo";
-            this.buttonUndo.Size = new System.Drawing.Size(146, 36);
+            this.buttonUndo.Size = new System.Drawing.Size(219, 55);
             this.buttonUndo.TabIndex = 10;
             this.buttonUndo.TabStop = false;
             this.buttonUndo.Click += new System.EventHandler(this.buttonUndo_Click);
@@ -370,9 +383,10 @@
             // 
             this.guess13.BackColor = System.Drawing.Color.Transparent;
             this.guess13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess13.Location = new System.Drawing.Point(327, 128);
+            this.guess13.Location = new System.Drawing.Point(490, 197);
+            this.guess13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess13.Name = "guess13";
-            this.guess13.Size = new System.Drawing.Size(27, 27);
+            this.guess13.Size = new System.Drawing.Size(40, 42);
             this.guess13.TabIndex = 14;
             this.guess13.TabStop = false;
             // 
@@ -380,9 +394,10 @@
             // 
             this.guess12.BackColor = System.Drawing.Color.Transparent;
             this.guess12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess12.Location = new System.Drawing.Point(285, 128);
+            this.guess12.Location = new System.Drawing.Point(428, 197);
+            this.guess12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess12.Name = "guess12";
-            this.guess12.Size = new System.Drawing.Size(27, 27);
+            this.guess12.Size = new System.Drawing.Size(40, 42);
             this.guess12.TabIndex = 13;
             this.guess12.TabStop = false;
             // 
@@ -390,9 +405,10 @@
             // 
             this.guess11.BackColor = System.Drawing.Color.Transparent;
             this.guess11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess11.Location = new System.Drawing.Point(243, 128);
+            this.guess11.Location = new System.Drawing.Point(364, 197);
+            this.guess11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess11.Name = "guess11";
-            this.guess11.Size = new System.Drawing.Size(27, 27);
+            this.guess11.Size = new System.Drawing.Size(40, 42);
             this.guess11.TabIndex = 12;
             this.guess11.TabStop = false;
             // 
@@ -400,9 +416,10 @@
             // 
             this.guess10.BackColor = System.Drawing.Color.Transparent;
             this.guess10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess10.Location = new System.Drawing.Point(201, 128);
+            this.guess10.Location = new System.Drawing.Point(302, 197);
+            this.guess10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess10.Name = "guess10";
-            this.guess10.Size = new System.Drawing.Size(27, 27);
+            this.guess10.Size = new System.Drawing.Size(40, 42);
             this.guess10.TabIndex = 11;
             this.guess10.TabStop = false;
             // 
@@ -410,9 +427,10 @@
             // 
             this.guess23.BackColor = System.Drawing.Color.Transparent;
             this.guess23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess23.Location = new System.Drawing.Point(327, 168);
+            this.guess23.Location = new System.Drawing.Point(490, 258);
+            this.guess23.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess23.Name = "guess23";
-            this.guess23.Size = new System.Drawing.Size(27, 27);
+            this.guess23.Size = new System.Drawing.Size(40, 42);
             this.guess23.TabIndex = 18;
             this.guess23.TabStop = false;
             // 
@@ -420,9 +438,10 @@
             // 
             this.guess22.BackColor = System.Drawing.Color.Transparent;
             this.guess22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess22.Location = new System.Drawing.Point(285, 168);
+            this.guess22.Location = new System.Drawing.Point(428, 258);
+            this.guess22.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess22.Name = "guess22";
-            this.guess22.Size = new System.Drawing.Size(27, 27);
+            this.guess22.Size = new System.Drawing.Size(40, 42);
             this.guess22.TabIndex = 17;
             this.guess22.TabStop = false;
             // 
@@ -430,9 +449,10 @@
             // 
             this.guess21.BackColor = System.Drawing.Color.Transparent;
             this.guess21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess21.Location = new System.Drawing.Point(243, 168);
+            this.guess21.Location = new System.Drawing.Point(364, 258);
+            this.guess21.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess21.Name = "guess21";
-            this.guess21.Size = new System.Drawing.Size(27, 27);
+            this.guess21.Size = new System.Drawing.Size(40, 42);
             this.guess21.TabIndex = 16;
             this.guess21.TabStop = false;
             // 
@@ -440,9 +460,10 @@
             // 
             this.guess20.BackColor = System.Drawing.Color.Transparent;
             this.guess20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess20.Location = new System.Drawing.Point(201, 168);
+            this.guess20.Location = new System.Drawing.Point(302, 258);
+            this.guess20.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess20.Name = "guess20";
-            this.guess20.Size = new System.Drawing.Size(27, 27);
+            this.guess20.Size = new System.Drawing.Size(40, 42);
             this.guess20.TabIndex = 15;
             this.guess20.TabStop = false;
             // 
@@ -450,9 +471,10 @@
             // 
             this.guess53.BackColor = System.Drawing.Color.Transparent;
             this.guess53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess53.Location = new System.Drawing.Point(327, 289);
+            this.guess53.Location = new System.Drawing.Point(490, 445);
+            this.guess53.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess53.Name = "guess53";
-            this.guess53.Size = new System.Drawing.Size(27, 27);
+            this.guess53.Size = new System.Drawing.Size(40, 42);
             this.guess53.TabIndex = 30;
             this.guess53.TabStop = false;
             // 
@@ -460,9 +482,10 @@
             // 
             this.guess52.BackColor = System.Drawing.Color.Transparent;
             this.guess52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess52.Location = new System.Drawing.Point(285, 289);
+            this.guess52.Location = new System.Drawing.Point(428, 445);
+            this.guess52.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess52.Name = "guess52";
-            this.guess52.Size = new System.Drawing.Size(27, 27);
+            this.guess52.Size = new System.Drawing.Size(40, 42);
             this.guess52.TabIndex = 29;
             this.guess52.TabStop = false;
             // 
@@ -470,9 +493,10 @@
             // 
             this.guess51.BackColor = System.Drawing.Color.Transparent;
             this.guess51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess51.Location = new System.Drawing.Point(243, 289);
+            this.guess51.Location = new System.Drawing.Point(364, 445);
+            this.guess51.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess51.Name = "guess51";
-            this.guess51.Size = new System.Drawing.Size(27, 27);
+            this.guess51.Size = new System.Drawing.Size(40, 42);
             this.guess51.TabIndex = 28;
             this.guess51.TabStop = false;
             // 
@@ -480,9 +504,10 @@
             // 
             this.guess50.BackColor = System.Drawing.Color.Transparent;
             this.guess50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess50.Location = new System.Drawing.Point(201, 289);
+            this.guess50.Location = new System.Drawing.Point(302, 445);
+            this.guess50.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess50.Name = "guess50";
-            this.guess50.Size = new System.Drawing.Size(27, 27);
+            this.guess50.Size = new System.Drawing.Size(40, 42);
             this.guess50.TabIndex = 27;
             this.guess50.TabStop = false;
             // 
@@ -490,9 +515,10 @@
             // 
             this.guess43.BackColor = System.Drawing.Color.Transparent;
             this.guess43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess43.Location = new System.Drawing.Point(327, 249);
+            this.guess43.Location = new System.Drawing.Point(490, 383);
+            this.guess43.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess43.Name = "guess43";
-            this.guess43.Size = new System.Drawing.Size(27, 27);
+            this.guess43.Size = new System.Drawing.Size(40, 42);
             this.guess43.TabIndex = 26;
             this.guess43.TabStop = false;
             // 
@@ -500,9 +526,10 @@
             // 
             this.guess42.BackColor = System.Drawing.Color.Transparent;
             this.guess42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess42.Location = new System.Drawing.Point(285, 249);
+            this.guess42.Location = new System.Drawing.Point(428, 383);
+            this.guess42.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess42.Name = "guess42";
-            this.guess42.Size = new System.Drawing.Size(27, 27);
+            this.guess42.Size = new System.Drawing.Size(40, 42);
             this.guess42.TabIndex = 25;
             this.guess42.TabStop = false;
             // 
@@ -510,9 +537,10 @@
             // 
             this.guess41.BackColor = System.Drawing.Color.Transparent;
             this.guess41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess41.Location = new System.Drawing.Point(243, 249);
+            this.guess41.Location = new System.Drawing.Point(364, 383);
+            this.guess41.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess41.Name = "guess41";
-            this.guess41.Size = new System.Drawing.Size(27, 27);
+            this.guess41.Size = new System.Drawing.Size(40, 42);
             this.guess41.TabIndex = 24;
             this.guess41.TabStop = false;
             // 
@@ -520,9 +548,10 @@
             // 
             this.guess40.BackColor = System.Drawing.Color.Transparent;
             this.guess40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess40.Location = new System.Drawing.Point(201, 249);
+            this.guess40.Location = new System.Drawing.Point(302, 383);
+            this.guess40.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess40.Name = "guess40";
-            this.guess40.Size = new System.Drawing.Size(27, 27);
+            this.guess40.Size = new System.Drawing.Size(40, 42);
             this.guess40.TabIndex = 23;
             this.guess40.TabStop = false;
             // 
@@ -530,9 +559,10 @@
             // 
             this.guess33.BackColor = System.Drawing.Color.Transparent;
             this.guess33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess33.Location = new System.Drawing.Point(327, 210);
+            this.guess33.Location = new System.Drawing.Point(490, 323);
+            this.guess33.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess33.Name = "guess33";
-            this.guess33.Size = new System.Drawing.Size(27, 27);
+            this.guess33.Size = new System.Drawing.Size(40, 42);
             this.guess33.TabIndex = 22;
             this.guess33.TabStop = false;
             // 
@@ -540,9 +570,10 @@
             // 
             this.guess32.BackColor = System.Drawing.Color.Transparent;
             this.guess32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess32.Location = new System.Drawing.Point(285, 210);
+            this.guess32.Location = new System.Drawing.Point(428, 323);
+            this.guess32.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess32.Name = "guess32";
-            this.guess32.Size = new System.Drawing.Size(27, 27);
+            this.guess32.Size = new System.Drawing.Size(40, 42);
             this.guess32.TabIndex = 21;
             this.guess32.TabStop = false;
             // 
@@ -550,9 +581,10 @@
             // 
             this.guess31.BackColor = System.Drawing.Color.Transparent;
             this.guess31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess31.Location = new System.Drawing.Point(243, 210);
+            this.guess31.Location = new System.Drawing.Point(364, 323);
+            this.guess31.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess31.Name = "guess31";
-            this.guess31.Size = new System.Drawing.Size(27, 27);
+            this.guess31.Size = new System.Drawing.Size(40, 42);
             this.guess31.TabIndex = 20;
             this.guess31.TabStop = false;
             // 
@@ -560,9 +592,10 @@
             // 
             this.guess30.BackColor = System.Drawing.Color.Transparent;
             this.guess30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess30.Location = new System.Drawing.Point(201, 210);
+            this.guess30.Location = new System.Drawing.Point(302, 323);
+            this.guess30.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess30.Name = "guess30";
-            this.guess30.Size = new System.Drawing.Size(27, 27);
+            this.guess30.Size = new System.Drawing.Size(40, 42);
             this.guess30.TabIndex = 19;
             this.guess30.TabStop = false;
             // 
@@ -570,9 +603,10 @@
             // 
             this.guess113.BackColor = System.Drawing.Color.Transparent;
             this.guess113.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess113.Location = new System.Drawing.Point(327, 527);
+            this.guess113.Location = new System.Drawing.Point(490, 811);
+            this.guess113.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess113.Name = "guess113";
-            this.guess113.Size = new System.Drawing.Size(27, 27);
+            this.guess113.Size = new System.Drawing.Size(40, 42);
             this.guess113.TabIndex = 54;
             this.guess113.TabStop = false;
             // 
@@ -580,9 +614,10 @@
             // 
             this.guess112.BackColor = System.Drawing.Color.Transparent;
             this.guess112.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess112.Location = new System.Drawing.Point(285, 527);
+            this.guess112.Location = new System.Drawing.Point(428, 811);
+            this.guess112.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess112.Name = "guess112";
-            this.guess112.Size = new System.Drawing.Size(27, 27);
+            this.guess112.Size = new System.Drawing.Size(40, 42);
             this.guess112.TabIndex = 53;
             this.guess112.TabStop = false;
             // 
@@ -590,9 +625,10 @@
             // 
             this.guess111.BackColor = System.Drawing.Color.Transparent;
             this.guess111.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess111.Location = new System.Drawing.Point(243, 527);
+            this.guess111.Location = new System.Drawing.Point(364, 811);
+            this.guess111.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess111.Name = "guess111";
-            this.guess111.Size = new System.Drawing.Size(27, 27);
+            this.guess111.Size = new System.Drawing.Size(40, 42);
             this.guess111.TabIndex = 52;
             this.guess111.TabStop = false;
             // 
@@ -600,9 +636,10 @@
             // 
             this.guess110.BackColor = System.Drawing.Color.Transparent;
             this.guess110.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess110.Location = new System.Drawing.Point(201, 527);
+            this.guess110.Location = new System.Drawing.Point(302, 811);
+            this.guess110.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess110.Name = "guess110";
-            this.guess110.Size = new System.Drawing.Size(27, 27);
+            this.guess110.Size = new System.Drawing.Size(40, 42);
             this.guess110.TabIndex = 51;
             this.guess110.TabStop = false;
             // 
@@ -610,9 +647,10 @@
             // 
             this.guess103.BackColor = System.Drawing.Color.Transparent;
             this.guess103.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess103.Location = new System.Drawing.Point(327, 488);
+            this.guess103.Location = new System.Drawing.Point(490, 751);
+            this.guess103.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess103.Name = "guess103";
-            this.guess103.Size = new System.Drawing.Size(27, 27);
+            this.guess103.Size = new System.Drawing.Size(40, 42);
             this.guess103.TabIndex = 50;
             this.guess103.TabStop = false;
             // 
@@ -620,9 +658,10 @@
             // 
             this.guess102.BackColor = System.Drawing.Color.Transparent;
             this.guess102.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess102.Location = new System.Drawing.Point(285, 488);
+            this.guess102.Location = new System.Drawing.Point(428, 751);
+            this.guess102.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess102.Name = "guess102";
-            this.guess102.Size = new System.Drawing.Size(27, 27);
+            this.guess102.Size = new System.Drawing.Size(40, 42);
             this.guess102.TabIndex = 49;
             this.guess102.TabStop = false;
             // 
@@ -630,9 +669,10 @@
             // 
             this.guess101.BackColor = System.Drawing.Color.Transparent;
             this.guess101.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess101.Location = new System.Drawing.Point(243, 488);
+            this.guess101.Location = new System.Drawing.Point(364, 751);
+            this.guess101.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess101.Name = "guess101";
-            this.guess101.Size = new System.Drawing.Size(27, 27);
+            this.guess101.Size = new System.Drawing.Size(40, 42);
             this.guess101.TabIndex = 48;
             this.guess101.TabStop = false;
             // 
@@ -640,9 +680,10 @@
             // 
             this.guess100.BackColor = System.Drawing.Color.Transparent;
             this.guess100.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess100.Location = new System.Drawing.Point(201, 488);
+            this.guess100.Location = new System.Drawing.Point(302, 751);
+            this.guess100.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess100.Name = "guess100";
-            this.guess100.Size = new System.Drawing.Size(27, 27);
+            this.guess100.Size = new System.Drawing.Size(40, 42);
             this.guess100.TabIndex = 47;
             this.guess100.TabStop = false;
             // 
@@ -650,9 +691,10 @@
             // 
             this.guess93.BackColor = System.Drawing.Color.Transparent;
             this.guess93.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess93.Location = new System.Drawing.Point(327, 448);
+            this.guess93.Location = new System.Drawing.Point(490, 689);
+            this.guess93.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess93.Name = "guess93";
-            this.guess93.Size = new System.Drawing.Size(27, 27);
+            this.guess93.Size = new System.Drawing.Size(40, 42);
             this.guess93.TabIndex = 46;
             this.guess93.TabStop = false;
             // 
@@ -660,9 +702,10 @@
             // 
             this.guess92.BackColor = System.Drawing.Color.Transparent;
             this.guess92.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess92.Location = new System.Drawing.Point(285, 448);
+            this.guess92.Location = new System.Drawing.Point(428, 689);
+            this.guess92.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess92.Name = "guess92";
-            this.guess92.Size = new System.Drawing.Size(27, 27);
+            this.guess92.Size = new System.Drawing.Size(40, 42);
             this.guess92.TabIndex = 45;
             this.guess92.TabStop = false;
             // 
@@ -670,9 +713,10 @@
             // 
             this.guess91.BackColor = System.Drawing.Color.Transparent;
             this.guess91.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess91.Location = new System.Drawing.Point(243, 448);
+            this.guess91.Location = new System.Drawing.Point(364, 689);
+            this.guess91.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess91.Name = "guess91";
-            this.guess91.Size = new System.Drawing.Size(27, 27);
+            this.guess91.Size = new System.Drawing.Size(40, 42);
             this.guess91.TabIndex = 44;
             this.guess91.TabStop = false;
             // 
@@ -680,9 +724,10 @@
             // 
             this.guess90.BackColor = System.Drawing.Color.Transparent;
             this.guess90.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess90.Location = new System.Drawing.Point(201, 448);
+            this.guess90.Location = new System.Drawing.Point(302, 689);
+            this.guess90.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess90.Name = "guess90";
-            this.guess90.Size = new System.Drawing.Size(27, 27);
+            this.guess90.Size = new System.Drawing.Size(40, 42);
             this.guess90.TabIndex = 43;
             this.guess90.TabStop = false;
             // 
@@ -690,9 +735,10 @@
             // 
             this.guess83.BackColor = System.Drawing.Color.Transparent;
             this.guess83.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess83.Location = new System.Drawing.Point(327, 408);
+            this.guess83.Location = new System.Drawing.Point(490, 628);
+            this.guess83.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess83.Name = "guess83";
-            this.guess83.Size = new System.Drawing.Size(27, 27);
+            this.guess83.Size = new System.Drawing.Size(40, 42);
             this.guess83.TabIndex = 42;
             this.guess83.TabStop = false;
             // 
@@ -700,9 +746,10 @@
             // 
             this.guess82.BackColor = System.Drawing.Color.Transparent;
             this.guess82.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess82.Location = new System.Drawing.Point(285, 408);
+            this.guess82.Location = new System.Drawing.Point(428, 628);
+            this.guess82.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess82.Name = "guess82";
-            this.guess82.Size = new System.Drawing.Size(27, 27);
+            this.guess82.Size = new System.Drawing.Size(40, 42);
             this.guess82.TabIndex = 41;
             this.guess82.TabStop = false;
             // 
@@ -710,9 +757,10 @@
             // 
             this.guess81.BackColor = System.Drawing.Color.Transparent;
             this.guess81.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess81.Location = new System.Drawing.Point(243, 408);
+            this.guess81.Location = new System.Drawing.Point(364, 628);
+            this.guess81.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess81.Name = "guess81";
-            this.guess81.Size = new System.Drawing.Size(27, 27);
+            this.guess81.Size = new System.Drawing.Size(40, 42);
             this.guess81.TabIndex = 40;
             this.guess81.TabStop = false;
             // 
@@ -720,9 +768,10 @@
             // 
             this.guess80.BackColor = System.Drawing.Color.Transparent;
             this.guess80.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess80.Location = new System.Drawing.Point(201, 408);
+            this.guess80.Location = new System.Drawing.Point(302, 628);
+            this.guess80.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess80.Name = "guess80";
-            this.guess80.Size = new System.Drawing.Size(27, 27);
+            this.guess80.Size = new System.Drawing.Size(40, 42);
             this.guess80.TabIndex = 39;
             this.guess80.TabStop = false;
             // 
@@ -730,9 +779,10 @@
             // 
             this.guess73.BackColor = System.Drawing.Color.Transparent;
             this.guess73.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess73.Location = new System.Drawing.Point(327, 366);
+            this.guess73.Location = new System.Drawing.Point(490, 563);
+            this.guess73.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess73.Name = "guess73";
-            this.guess73.Size = new System.Drawing.Size(27, 27);
+            this.guess73.Size = new System.Drawing.Size(40, 42);
             this.guess73.TabIndex = 38;
             this.guess73.TabStop = false;
             // 
@@ -740,9 +790,10 @@
             // 
             this.guess72.BackColor = System.Drawing.Color.Transparent;
             this.guess72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess72.Location = new System.Drawing.Point(285, 366);
+            this.guess72.Location = new System.Drawing.Point(428, 563);
+            this.guess72.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess72.Name = "guess72";
-            this.guess72.Size = new System.Drawing.Size(27, 27);
+            this.guess72.Size = new System.Drawing.Size(40, 42);
             this.guess72.TabIndex = 37;
             this.guess72.TabStop = false;
             // 
@@ -750,9 +801,10 @@
             // 
             this.guess71.BackColor = System.Drawing.Color.Transparent;
             this.guess71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess71.Location = new System.Drawing.Point(243, 366);
+            this.guess71.Location = new System.Drawing.Point(364, 563);
+            this.guess71.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess71.Name = "guess71";
-            this.guess71.Size = new System.Drawing.Size(27, 27);
+            this.guess71.Size = new System.Drawing.Size(40, 42);
             this.guess71.TabIndex = 36;
             this.guess71.TabStop = false;
             // 
@@ -760,9 +812,10 @@
             // 
             this.guess70.BackColor = System.Drawing.Color.Transparent;
             this.guess70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess70.Location = new System.Drawing.Point(201, 366);
+            this.guess70.Location = new System.Drawing.Point(302, 563);
+            this.guess70.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess70.Name = "guess70";
-            this.guess70.Size = new System.Drawing.Size(27, 27);
+            this.guess70.Size = new System.Drawing.Size(40, 42);
             this.guess70.TabIndex = 35;
             this.guess70.TabStop = false;
             // 
@@ -770,9 +823,10 @@
             // 
             this.guess63.BackColor = System.Drawing.Color.Transparent;
             this.guess63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess63.Location = new System.Drawing.Point(327, 328);
+            this.guess63.Location = new System.Drawing.Point(490, 505);
+            this.guess63.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess63.Name = "guess63";
-            this.guess63.Size = new System.Drawing.Size(27, 27);
+            this.guess63.Size = new System.Drawing.Size(40, 42);
             this.guess63.TabIndex = 34;
             this.guess63.TabStop = false;
             // 
@@ -780,9 +834,10 @@
             // 
             this.guess62.BackColor = System.Drawing.Color.Transparent;
             this.guess62.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess62.Location = new System.Drawing.Point(285, 328);
+            this.guess62.Location = new System.Drawing.Point(428, 505);
+            this.guess62.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess62.Name = "guess62";
-            this.guess62.Size = new System.Drawing.Size(27, 27);
+            this.guess62.Size = new System.Drawing.Size(40, 42);
             this.guess62.TabIndex = 33;
             this.guess62.TabStop = false;
             // 
@@ -790,9 +845,10 @@
             // 
             this.guess61.BackColor = System.Drawing.Color.Transparent;
             this.guess61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess61.Location = new System.Drawing.Point(243, 328);
+            this.guess61.Location = new System.Drawing.Point(364, 505);
+            this.guess61.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess61.Name = "guess61";
-            this.guess61.Size = new System.Drawing.Size(27, 27);
+            this.guess61.Size = new System.Drawing.Size(40, 42);
             this.guess61.TabIndex = 32;
             this.guess61.TabStop = false;
             // 
@@ -800,9 +856,10 @@
             // 
             this.guess60.BackColor = System.Drawing.Color.Transparent;
             this.guess60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guess60.Location = new System.Drawing.Point(201, 328);
+            this.guess60.Location = new System.Drawing.Point(302, 505);
+            this.guess60.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guess60.Name = "guess60";
-            this.guess60.Size = new System.Drawing.Size(27, 27);
+            this.guess60.Size = new System.Drawing.Size(40, 42);
             this.guess60.TabIndex = 31;
             this.guess60.TabStop = false;
             // 
@@ -810,9 +867,10 @@
             // 
             this.answer2.BackColor = System.Drawing.Color.Transparent;
             this.answer2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answer2.Location = new System.Drawing.Point(284, 589);
+            this.answer2.Location = new System.Drawing.Point(426, 906);
+            this.answer2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answer2.Name = "answer2";
-            this.answer2.Size = new System.Drawing.Size(27, 27);
+            this.answer2.Size = new System.Drawing.Size(40, 42);
             this.answer2.TabIndex = 57;
             this.answer2.TabStop = false;
             // 
@@ -820,9 +878,10 @@
             // 
             this.answer1.BackColor = System.Drawing.Color.Transparent;
             this.answer1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answer1.Location = new System.Drawing.Point(242, 589);
+            this.answer1.Location = new System.Drawing.Point(363, 906);
+            this.answer1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answer1.Name = "answer1";
-            this.answer1.Size = new System.Drawing.Size(27, 27);
+            this.answer1.Size = new System.Drawing.Size(40, 42);
             this.answer1.TabIndex = 56;
             this.answer1.TabStop = false;
             // 
@@ -830,9 +889,10 @@
             // 
             this.answer0.BackColor = System.Drawing.Color.Transparent;
             this.answer0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answer0.Location = new System.Drawing.Point(200, 589);
+            this.answer0.Location = new System.Drawing.Point(300, 906);
+            this.answer0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answer0.Name = "answer0";
-            this.answer0.Size = new System.Drawing.Size(27, 27);
+            this.answer0.Size = new System.Drawing.Size(40, 42);
             this.answer0.TabIndex = 55;
             this.answer0.TabStop = false;
             // 
@@ -840,9 +900,10 @@
             // 
             this.buttonSubmit.BackColor = System.Drawing.Color.Transparent;
             this.buttonSubmit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonSubmit.Location = new System.Drawing.Point(562, 395);
+            this.buttonSubmit.Location = new System.Drawing.Point(843, 608);
+            this.buttonSubmit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonSubmit.Name = "buttonSubmit";
-            this.buttonSubmit.Size = new System.Drawing.Size(146, 36);
+            this.buttonSubmit.Size = new System.Drawing.Size(219, 55);
             this.buttonSubmit.TabIndex = 59;
             this.buttonSubmit.TabStop = false;
             this.buttonSubmit.Click += new System.EventHandler(this.buttonSubmit_Click);
@@ -851,9 +912,10 @@
             // 
             this.answer3.BackColor = System.Drawing.Color.Transparent;
             this.answer3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answer3.Location = new System.Drawing.Point(327, 589);
+            this.answer3.Location = new System.Drawing.Point(490, 906);
+            this.answer3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answer3.Name = "answer3";
-            this.answer3.Size = new System.Drawing.Size(27, 27);
+            this.answer3.Size = new System.Drawing.Size(40, 42);
             this.answer3.TabIndex = 60;
             this.answer3.TabStop = false;
             // 
@@ -861,9 +923,10 @@
             // 
             this.answerBall00.BackColor = System.Drawing.Color.Transparent;
             this.answerBall00.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall00.Location = new System.Drawing.Point(415, 91);
+            this.answerBall00.Location = new System.Drawing.Point(622, 140);
+            this.answerBall00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall00.Name = "answerBall00";
-            this.answerBall00.Size = new System.Drawing.Size(12, 12);
+            this.answerBall00.Size = new System.Drawing.Size(18, 18);
             this.answerBall00.TabIndex = 61;
             this.answerBall00.TabStop = false;
             // 
@@ -871,9 +934,10 @@
             // 
             this.answerBall01.BackColor = System.Drawing.Color.Transparent;
             this.answerBall01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall01.Location = new System.Drawing.Point(431, 91);
+            this.answerBall01.Location = new System.Drawing.Point(646, 140);
+            this.answerBall01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall01.Name = "answerBall01";
-            this.answerBall01.Size = new System.Drawing.Size(12, 12);
+            this.answerBall01.Size = new System.Drawing.Size(18, 18);
             this.answerBall01.TabIndex = 62;
             this.answerBall01.TabStop = false;
             // 
@@ -881,9 +945,10 @@
             // 
             this.answerBall03.BackColor = System.Drawing.Color.Transparent;
             this.answerBall03.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall03.Location = new System.Drawing.Point(431, 104);
+            this.answerBall03.Location = new System.Drawing.Point(646, 160);
+            this.answerBall03.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall03.Name = "answerBall03";
-            this.answerBall03.Size = new System.Drawing.Size(12, 12);
+            this.answerBall03.Size = new System.Drawing.Size(18, 18);
             this.answerBall03.TabIndex = 64;
             this.answerBall03.TabStop = false;
             // 
@@ -891,9 +956,10 @@
             // 
             this.answerBall02.BackColor = System.Drawing.Color.Transparent;
             this.answerBall02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall02.Location = new System.Drawing.Point(415, 104);
+            this.answerBall02.Location = new System.Drawing.Point(622, 160);
+            this.answerBall02.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall02.Name = "answerBall02";
-            this.answerBall02.Size = new System.Drawing.Size(12, 12);
+            this.answerBall02.Size = new System.Drawing.Size(18, 18);
             this.answerBall02.TabIndex = 63;
             this.answerBall02.TabStop = false;
             // 
@@ -901,9 +967,10 @@
             // 
             this.answerBall13.BackColor = System.Drawing.Color.Transparent;
             this.answerBall13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall13.Location = new System.Drawing.Point(431, 143);
+            this.answerBall13.Location = new System.Drawing.Point(646, 220);
+            this.answerBall13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall13.Name = "answerBall13";
-            this.answerBall13.Size = new System.Drawing.Size(12, 12);
+            this.answerBall13.Size = new System.Drawing.Size(18, 18);
             this.answerBall13.TabIndex = 68;
             this.answerBall13.TabStop = false;
             // 
@@ -911,9 +978,10 @@
             // 
             this.answerBall12.BackColor = System.Drawing.Color.Transparent;
             this.answerBall12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall12.Location = new System.Drawing.Point(415, 143);
+            this.answerBall12.Location = new System.Drawing.Point(622, 220);
+            this.answerBall12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall12.Name = "answerBall12";
-            this.answerBall12.Size = new System.Drawing.Size(12, 12);
+            this.answerBall12.Size = new System.Drawing.Size(18, 18);
             this.answerBall12.TabIndex = 67;
             this.answerBall12.TabStop = false;
             // 
@@ -921,9 +989,10 @@
             // 
             this.answerBall11.BackColor = System.Drawing.Color.Transparent;
             this.answerBall11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall11.Location = new System.Drawing.Point(431, 130);
+            this.answerBall11.Location = new System.Drawing.Point(646, 200);
+            this.answerBall11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall11.Name = "answerBall11";
-            this.answerBall11.Size = new System.Drawing.Size(12, 12);
+            this.answerBall11.Size = new System.Drawing.Size(18, 18);
             this.answerBall11.TabIndex = 66;
             this.answerBall11.TabStop = false;
             // 
@@ -931,9 +1000,10 @@
             // 
             this.answerBall10.BackColor = System.Drawing.Color.Transparent;
             this.answerBall10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall10.Location = new System.Drawing.Point(415, 130);
+            this.answerBall10.Location = new System.Drawing.Point(622, 200);
+            this.answerBall10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall10.Name = "answerBall10";
-            this.answerBall10.Size = new System.Drawing.Size(12, 12);
+            this.answerBall10.Size = new System.Drawing.Size(18, 18);
             this.answerBall10.TabIndex = 65;
             this.answerBall10.TabStop = false;
             // 
@@ -941,9 +1011,10 @@
             // 
             this.answerBall33.BackColor = System.Drawing.Color.Transparent;
             this.answerBall33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall33.Location = new System.Drawing.Point(431, 223);
+            this.answerBall33.Location = new System.Drawing.Point(646, 343);
+            this.answerBall33.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall33.Name = "answerBall33";
-            this.answerBall33.Size = new System.Drawing.Size(12, 12);
+            this.answerBall33.Size = new System.Drawing.Size(18, 18);
             this.answerBall33.TabIndex = 76;
             this.answerBall33.TabStop = false;
             // 
@@ -951,9 +1022,10 @@
             // 
             this.answerBall32.BackColor = System.Drawing.Color.Transparent;
             this.answerBall32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall32.Location = new System.Drawing.Point(415, 223);
+            this.answerBall32.Location = new System.Drawing.Point(622, 343);
+            this.answerBall32.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall32.Name = "answerBall32";
-            this.answerBall32.Size = new System.Drawing.Size(12, 12);
+            this.answerBall32.Size = new System.Drawing.Size(18, 18);
             this.answerBall32.TabIndex = 75;
             this.answerBall32.TabStop = false;
             // 
@@ -961,9 +1033,10 @@
             // 
             this.answerBall31.BackColor = System.Drawing.Color.Transparent;
             this.answerBall31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall31.Location = new System.Drawing.Point(431, 210);
+            this.answerBall31.Location = new System.Drawing.Point(646, 323);
+            this.answerBall31.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall31.Name = "answerBall31";
-            this.answerBall31.Size = new System.Drawing.Size(12, 12);
+            this.answerBall31.Size = new System.Drawing.Size(18, 18);
             this.answerBall31.TabIndex = 74;
             this.answerBall31.TabStop = false;
             // 
@@ -971,9 +1044,10 @@
             // 
             this.answerBall30.BackColor = System.Drawing.Color.Transparent;
             this.answerBall30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall30.Location = new System.Drawing.Point(415, 210);
+            this.answerBall30.Location = new System.Drawing.Point(622, 323);
+            this.answerBall30.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall30.Name = "answerBall30";
-            this.answerBall30.Size = new System.Drawing.Size(12, 12);
+            this.answerBall30.Size = new System.Drawing.Size(18, 18);
             this.answerBall30.TabIndex = 73;
             this.answerBall30.TabStop = false;
             // 
@@ -981,9 +1055,10 @@
             // 
             this.answerBall23.BackColor = System.Drawing.Color.Transparent;
             this.answerBall23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall23.Location = new System.Drawing.Point(431, 182);
+            this.answerBall23.Location = new System.Drawing.Point(646, 280);
+            this.answerBall23.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall23.Name = "answerBall23";
-            this.answerBall23.Size = new System.Drawing.Size(12, 12);
+            this.answerBall23.Size = new System.Drawing.Size(18, 18);
             this.answerBall23.TabIndex = 72;
             this.answerBall23.TabStop = false;
             // 
@@ -991,9 +1066,10 @@
             // 
             this.answerBall22.BackColor = System.Drawing.Color.Transparent;
             this.answerBall22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall22.Location = new System.Drawing.Point(415, 182);
+            this.answerBall22.Location = new System.Drawing.Point(622, 280);
+            this.answerBall22.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall22.Name = "answerBall22";
-            this.answerBall22.Size = new System.Drawing.Size(12, 12);
+            this.answerBall22.Size = new System.Drawing.Size(18, 18);
             this.answerBall22.TabIndex = 71;
             this.answerBall22.TabStop = false;
             // 
@@ -1001,9 +1077,10 @@
             // 
             this.answerBall21.BackColor = System.Drawing.Color.Transparent;
             this.answerBall21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall21.Location = new System.Drawing.Point(431, 169);
+            this.answerBall21.Location = new System.Drawing.Point(646, 260);
+            this.answerBall21.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall21.Name = "answerBall21";
-            this.answerBall21.Size = new System.Drawing.Size(12, 12);
+            this.answerBall21.Size = new System.Drawing.Size(18, 18);
             this.answerBall21.TabIndex = 70;
             this.answerBall21.TabStop = false;
             // 
@@ -1011,9 +1088,10 @@
             // 
             this.answerBall20.BackColor = System.Drawing.Color.Transparent;
             this.answerBall20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall20.Location = new System.Drawing.Point(415, 169);
+            this.answerBall20.Location = new System.Drawing.Point(622, 260);
+            this.answerBall20.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall20.Name = "answerBall20";
-            this.answerBall20.Size = new System.Drawing.Size(12, 12);
+            this.answerBall20.Size = new System.Drawing.Size(18, 18);
             this.answerBall20.TabIndex = 69;
             this.answerBall20.TabStop = false;
             // 
@@ -1021,9 +1099,10 @@
             // 
             this.answerBall53.BackColor = System.Drawing.Color.Transparent;
             this.answerBall53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall53.Location = new System.Drawing.Point(431, 302);
+            this.answerBall53.Location = new System.Drawing.Point(646, 465);
+            this.answerBall53.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall53.Name = "answerBall53";
-            this.answerBall53.Size = new System.Drawing.Size(12, 12);
+            this.answerBall53.Size = new System.Drawing.Size(18, 18);
             this.answerBall53.TabIndex = 84;
             this.answerBall53.TabStop = false;
             // 
@@ -1031,9 +1110,10 @@
             // 
             this.answerBall52.BackColor = System.Drawing.Color.Transparent;
             this.answerBall52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall52.Location = new System.Drawing.Point(415, 302);
+            this.answerBall52.Location = new System.Drawing.Point(622, 465);
+            this.answerBall52.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall52.Name = "answerBall52";
-            this.answerBall52.Size = new System.Drawing.Size(12, 12);
+            this.answerBall52.Size = new System.Drawing.Size(18, 18);
             this.answerBall52.TabIndex = 83;
             this.answerBall52.TabStop = false;
             // 
@@ -1041,9 +1121,10 @@
             // 
             this.answerBall51.BackColor = System.Drawing.Color.Transparent;
             this.answerBall51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall51.Location = new System.Drawing.Point(431, 289);
+            this.answerBall51.Location = new System.Drawing.Point(646, 445);
+            this.answerBall51.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall51.Name = "answerBall51";
-            this.answerBall51.Size = new System.Drawing.Size(12, 12);
+            this.answerBall51.Size = new System.Drawing.Size(18, 18);
             this.answerBall51.TabIndex = 82;
             this.answerBall51.TabStop = false;
             // 
@@ -1051,9 +1132,10 @@
             // 
             this.answerBall50.BackColor = System.Drawing.Color.Transparent;
             this.answerBall50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall50.Location = new System.Drawing.Point(415, 289);
+            this.answerBall50.Location = new System.Drawing.Point(622, 445);
+            this.answerBall50.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall50.Name = "answerBall50";
-            this.answerBall50.Size = new System.Drawing.Size(12, 12);
+            this.answerBall50.Size = new System.Drawing.Size(18, 18);
             this.answerBall50.TabIndex = 81;
             this.answerBall50.TabStop = false;
             // 
@@ -1061,9 +1143,10 @@
             // 
             this.answerBall43.BackColor = System.Drawing.Color.Transparent;
             this.answerBall43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall43.Location = new System.Drawing.Point(431, 263);
+            this.answerBall43.Location = new System.Drawing.Point(646, 405);
+            this.answerBall43.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall43.Name = "answerBall43";
-            this.answerBall43.Size = new System.Drawing.Size(12, 12);
+            this.answerBall43.Size = new System.Drawing.Size(18, 18);
             this.answerBall43.TabIndex = 80;
             this.answerBall43.TabStop = false;
             // 
@@ -1071,9 +1154,10 @@
             // 
             this.answerBall42.BackColor = System.Drawing.Color.Transparent;
             this.answerBall42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall42.Location = new System.Drawing.Point(415, 263);
+            this.answerBall42.Location = new System.Drawing.Point(622, 405);
+            this.answerBall42.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall42.Name = "answerBall42";
-            this.answerBall42.Size = new System.Drawing.Size(12, 12);
+            this.answerBall42.Size = new System.Drawing.Size(18, 18);
             this.answerBall42.TabIndex = 79;
             this.answerBall42.TabStop = false;
             // 
@@ -1081,9 +1165,10 @@
             // 
             this.answerBall41.BackColor = System.Drawing.Color.Transparent;
             this.answerBall41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall41.Location = new System.Drawing.Point(431, 250);
+            this.answerBall41.Location = new System.Drawing.Point(646, 385);
+            this.answerBall41.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall41.Name = "answerBall41";
-            this.answerBall41.Size = new System.Drawing.Size(12, 12);
+            this.answerBall41.Size = new System.Drawing.Size(18, 18);
             this.answerBall41.TabIndex = 78;
             this.answerBall41.TabStop = false;
             // 
@@ -1091,9 +1176,10 @@
             // 
             this.answerBall40.BackColor = System.Drawing.Color.Transparent;
             this.answerBall40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall40.Location = new System.Drawing.Point(415, 250);
+            this.answerBall40.Location = new System.Drawing.Point(622, 385);
+            this.answerBall40.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall40.Name = "answerBall40";
-            this.answerBall40.Size = new System.Drawing.Size(12, 12);
+            this.answerBall40.Size = new System.Drawing.Size(18, 18);
             this.answerBall40.TabIndex = 77;
             this.answerBall40.TabStop = false;
             // 
@@ -1101,9 +1187,10 @@
             // 
             this.answerBall113.BackColor = System.Drawing.Color.Transparent;
             this.answerBall113.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall113.Location = new System.Drawing.Point(431, 545);
+            this.answerBall113.Location = new System.Drawing.Point(646, 838);
+            this.answerBall113.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall113.Name = "answerBall113";
-            this.answerBall113.Size = new System.Drawing.Size(12, 12);
+            this.answerBall113.Size = new System.Drawing.Size(18, 18);
             this.answerBall113.TabIndex = 108;
             this.answerBall113.TabStop = false;
             // 
@@ -1111,9 +1198,10 @@
             // 
             this.answerBall112.BackColor = System.Drawing.Color.Transparent;
             this.answerBall112.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall112.Location = new System.Drawing.Point(415, 545);
+            this.answerBall112.Location = new System.Drawing.Point(622, 838);
+            this.answerBall112.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall112.Name = "answerBall112";
-            this.answerBall112.Size = new System.Drawing.Size(12, 12);
+            this.answerBall112.Size = new System.Drawing.Size(18, 18);
             this.answerBall112.TabIndex = 107;
             this.answerBall112.TabStop = false;
             // 
@@ -1121,9 +1209,10 @@
             // 
             this.answerBall111.BackColor = System.Drawing.Color.Transparent;
             this.answerBall111.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall111.Location = new System.Drawing.Point(431, 532);
+            this.answerBall111.Location = new System.Drawing.Point(646, 818);
+            this.answerBall111.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall111.Name = "answerBall111";
-            this.answerBall111.Size = new System.Drawing.Size(12, 12);
+            this.answerBall111.Size = new System.Drawing.Size(18, 18);
             this.answerBall111.TabIndex = 106;
             this.answerBall111.TabStop = false;
             // 
@@ -1131,9 +1220,10 @@
             // 
             this.answerBall110.BackColor = System.Drawing.Color.Transparent;
             this.answerBall110.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall110.Location = new System.Drawing.Point(415, 532);
+            this.answerBall110.Location = new System.Drawing.Point(622, 818);
+            this.answerBall110.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall110.Name = "answerBall110";
-            this.answerBall110.Size = new System.Drawing.Size(12, 12);
+            this.answerBall110.Size = new System.Drawing.Size(18, 18);
             this.answerBall110.TabIndex = 105;
             this.answerBall110.TabStop = false;
             // 
@@ -1141,9 +1231,10 @@
             // 
             this.answerBall103.BackColor = System.Drawing.Color.Transparent;
             this.answerBall103.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall103.Location = new System.Drawing.Point(431, 506);
+            this.answerBall103.Location = new System.Drawing.Point(646, 778);
+            this.answerBall103.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall103.Name = "answerBall103";
-            this.answerBall103.Size = new System.Drawing.Size(12, 12);
+            this.answerBall103.Size = new System.Drawing.Size(18, 18);
             this.answerBall103.TabIndex = 104;
             this.answerBall103.TabStop = false;
             // 
@@ -1151,9 +1242,10 @@
             // 
             this.answerBall102.BackColor = System.Drawing.Color.Transparent;
             this.answerBall102.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall102.Location = new System.Drawing.Point(415, 506);
+            this.answerBall102.Location = new System.Drawing.Point(622, 778);
+            this.answerBall102.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall102.Name = "answerBall102";
-            this.answerBall102.Size = new System.Drawing.Size(12, 12);
+            this.answerBall102.Size = new System.Drawing.Size(18, 18);
             this.answerBall102.TabIndex = 103;
             this.answerBall102.TabStop = false;
             // 
@@ -1161,9 +1253,10 @@
             // 
             this.answerBall101.BackColor = System.Drawing.Color.Transparent;
             this.answerBall101.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall101.Location = new System.Drawing.Point(431, 493);
+            this.answerBall101.Location = new System.Drawing.Point(646, 758);
+            this.answerBall101.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall101.Name = "answerBall101";
-            this.answerBall101.Size = new System.Drawing.Size(12, 12);
+            this.answerBall101.Size = new System.Drawing.Size(18, 18);
             this.answerBall101.TabIndex = 102;
             this.answerBall101.TabStop = false;
             // 
@@ -1171,9 +1264,10 @@
             // 
             this.answerBall100.BackColor = System.Drawing.Color.Transparent;
             this.answerBall100.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall100.Location = new System.Drawing.Point(415, 493);
+            this.answerBall100.Location = new System.Drawing.Point(622, 758);
+            this.answerBall100.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall100.Name = "answerBall100";
-            this.answerBall100.Size = new System.Drawing.Size(12, 12);
+            this.answerBall100.Size = new System.Drawing.Size(18, 18);
             this.answerBall100.TabIndex = 101;
             this.answerBall100.TabStop = false;
             // 
@@ -1181,9 +1275,10 @@
             // 
             this.answerBall93.BackColor = System.Drawing.Color.Transparent;
             this.answerBall93.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall93.Location = new System.Drawing.Point(431, 466);
+            this.answerBall93.Location = new System.Drawing.Point(646, 717);
+            this.answerBall93.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall93.Name = "answerBall93";
-            this.answerBall93.Size = new System.Drawing.Size(12, 12);
+            this.answerBall93.Size = new System.Drawing.Size(18, 18);
             this.answerBall93.TabIndex = 100;
             this.answerBall93.TabStop = false;
             // 
@@ -1191,9 +1286,10 @@
             // 
             this.answerBall92.BackColor = System.Drawing.Color.Transparent;
             this.answerBall92.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall92.Location = new System.Drawing.Point(415, 466);
+            this.answerBall92.Location = new System.Drawing.Point(622, 717);
+            this.answerBall92.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall92.Name = "answerBall92";
-            this.answerBall92.Size = new System.Drawing.Size(12, 12);
+            this.answerBall92.Size = new System.Drawing.Size(18, 18);
             this.answerBall92.TabIndex = 99;
             this.answerBall92.TabStop = false;
             // 
@@ -1201,9 +1297,10 @@
             // 
             this.answerBall91.BackColor = System.Drawing.Color.Transparent;
             this.answerBall91.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall91.Location = new System.Drawing.Point(431, 453);
+            this.answerBall91.Location = new System.Drawing.Point(646, 697);
+            this.answerBall91.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall91.Name = "answerBall91";
-            this.answerBall91.Size = new System.Drawing.Size(12, 12);
+            this.answerBall91.Size = new System.Drawing.Size(18, 18);
             this.answerBall91.TabIndex = 98;
             this.answerBall91.TabStop = false;
             // 
@@ -1211,9 +1308,10 @@
             // 
             this.answerBall90.BackColor = System.Drawing.Color.Transparent;
             this.answerBall90.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall90.Location = new System.Drawing.Point(415, 453);
+            this.answerBall90.Location = new System.Drawing.Point(622, 697);
+            this.answerBall90.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall90.Name = "answerBall90";
-            this.answerBall90.Size = new System.Drawing.Size(12, 12);
+            this.answerBall90.Size = new System.Drawing.Size(18, 18);
             this.answerBall90.TabIndex = 97;
             this.answerBall90.TabStop = false;
             // 
@@ -1221,9 +1319,10 @@
             // 
             this.answerBall83.BackColor = System.Drawing.Color.Transparent;
             this.answerBall83.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall83.Location = new System.Drawing.Point(431, 425);
+            this.answerBall83.Location = new System.Drawing.Point(646, 654);
+            this.answerBall83.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall83.Name = "answerBall83";
-            this.answerBall83.Size = new System.Drawing.Size(12, 12);
+            this.answerBall83.Size = new System.Drawing.Size(18, 18);
             this.answerBall83.TabIndex = 96;
             this.answerBall83.TabStop = false;
             // 
@@ -1231,9 +1330,10 @@
             // 
             this.answerBall82.BackColor = System.Drawing.Color.Transparent;
             this.answerBall82.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall82.Location = new System.Drawing.Point(415, 425);
+            this.answerBall82.Location = new System.Drawing.Point(622, 654);
+            this.answerBall82.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall82.Name = "answerBall82";
-            this.answerBall82.Size = new System.Drawing.Size(12, 12);
+            this.answerBall82.Size = new System.Drawing.Size(18, 18);
             this.answerBall82.TabIndex = 95;
             this.answerBall82.TabStop = false;
             // 
@@ -1241,9 +1341,10 @@
             // 
             this.answerBall81.BackColor = System.Drawing.Color.Transparent;
             this.answerBall81.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall81.Location = new System.Drawing.Point(431, 412);
+            this.answerBall81.Location = new System.Drawing.Point(646, 634);
+            this.answerBall81.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall81.Name = "answerBall81";
-            this.answerBall81.Size = new System.Drawing.Size(12, 12);
+            this.answerBall81.Size = new System.Drawing.Size(18, 18);
             this.answerBall81.TabIndex = 94;
             this.answerBall81.TabStop = false;
             // 
@@ -1251,9 +1352,10 @@
             // 
             this.answerBall80.BackColor = System.Drawing.Color.Transparent;
             this.answerBall80.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall80.Location = new System.Drawing.Point(415, 412);
+            this.answerBall80.Location = new System.Drawing.Point(622, 634);
+            this.answerBall80.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall80.Name = "answerBall80";
-            this.answerBall80.Size = new System.Drawing.Size(12, 12);
+            this.answerBall80.Size = new System.Drawing.Size(18, 18);
             this.answerBall80.TabIndex = 93;
             this.answerBall80.TabStop = false;
             // 
@@ -1261,9 +1363,10 @@
             // 
             this.answerBall73.BackColor = System.Drawing.Color.Transparent;
             this.answerBall73.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall73.Location = new System.Drawing.Point(431, 386);
+            this.answerBall73.Location = new System.Drawing.Point(646, 594);
+            this.answerBall73.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall73.Name = "answerBall73";
-            this.answerBall73.Size = new System.Drawing.Size(12, 12);
+            this.answerBall73.Size = new System.Drawing.Size(18, 18);
             this.answerBall73.TabIndex = 92;
             this.answerBall73.TabStop = false;
             // 
@@ -1271,9 +1374,10 @@
             // 
             this.answerBall72.BackColor = System.Drawing.Color.Transparent;
             this.answerBall72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall72.Location = new System.Drawing.Point(415, 386);
+            this.answerBall72.Location = new System.Drawing.Point(622, 594);
+            this.answerBall72.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall72.Name = "answerBall72";
-            this.answerBall72.Size = new System.Drawing.Size(12, 12);
+            this.answerBall72.Size = new System.Drawing.Size(18, 18);
             this.answerBall72.TabIndex = 91;
             this.answerBall72.TabStop = false;
             // 
@@ -1281,9 +1385,10 @@
             // 
             this.answerBall71.BackColor = System.Drawing.Color.Transparent;
             this.answerBall71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall71.Location = new System.Drawing.Point(431, 373);
+            this.answerBall71.Location = new System.Drawing.Point(646, 574);
+            this.answerBall71.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall71.Name = "answerBall71";
-            this.answerBall71.Size = new System.Drawing.Size(12, 12);
+            this.answerBall71.Size = new System.Drawing.Size(18, 18);
             this.answerBall71.TabIndex = 90;
             this.answerBall71.TabStop = false;
             // 
@@ -1291,9 +1396,10 @@
             // 
             this.answerBall70.BackColor = System.Drawing.Color.Transparent;
             this.answerBall70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall70.Location = new System.Drawing.Point(415, 373);
+            this.answerBall70.Location = new System.Drawing.Point(622, 574);
+            this.answerBall70.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall70.Name = "answerBall70";
-            this.answerBall70.Size = new System.Drawing.Size(12, 12);
+            this.answerBall70.Size = new System.Drawing.Size(18, 18);
             this.answerBall70.TabIndex = 89;
             this.answerBall70.TabStop = false;
             // 
@@ -1301,9 +1407,10 @@
             // 
             this.answerBall63.BackColor = System.Drawing.Color.Transparent;
             this.answerBall63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall63.Location = new System.Drawing.Point(431, 347);
+            this.answerBall63.Location = new System.Drawing.Point(646, 534);
+            this.answerBall63.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall63.Name = "answerBall63";
-            this.answerBall63.Size = new System.Drawing.Size(12, 12);
+            this.answerBall63.Size = new System.Drawing.Size(18, 18);
             this.answerBall63.TabIndex = 88;
             this.answerBall63.TabStop = false;
             // 
@@ -1311,9 +1418,10 @@
             // 
             this.answerBall62.BackColor = System.Drawing.Color.Transparent;
             this.answerBall62.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall62.Location = new System.Drawing.Point(415, 347);
+            this.answerBall62.Location = new System.Drawing.Point(622, 534);
+            this.answerBall62.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall62.Name = "answerBall62";
-            this.answerBall62.Size = new System.Drawing.Size(12, 12);
+            this.answerBall62.Size = new System.Drawing.Size(18, 18);
             this.answerBall62.TabIndex = 87;
             this.answerBall62.TabStop = false;
             // 
@@ -1321,9 +1429,10 @@
             // 
             this.answerBall61.BackColor = System.Drawing.Color.Transparent;
             this.answerBall61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall61.Location = new System.Drawing.Point(431, 334);
+            this.answerBall61.Location = new System.Drawing.Point(646, 514);
+            this.answerBall61.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall61.Name = "answerBall61";
-            this.answerBall61.Size = new System.Drawing.Size(12, 12);
+            this.answerBall61.Size = new System.Drawing.Size(18, 18);
             this.answerBall61.TabIndex = 86;
             this.answerBall61.TabStop = false;
             // 
@@ -1331,9 +1440,10 @@
             // 
             this.answerBall60.BackColor = System.Drawing.Color.Transparent;
             this.answerBall60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.answerBall60.Location = new System.Drawing.Point(415, 334);
+            this.answerBall60.Location = new System.Drawing.Point(622, 514);
+            this.answerBall60.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.answerBall60.Name = "answerBall60";
-            this.answerBall60.Size = new System.Drawing.Size(12, 12);
+            this.answerBall60.Size = new System.Drawing.Size(18, 18);
             this.answerBall60.TabIndex = 85;
             this.answerBall60.TabStop = false;
             // 
@@ -1341,20 +1451,31 @@
             // 
             this.buttonReset.BackColor = System.Drawing.Color.Transparent;
             this.buttonReset.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonReset.Location = new System.Drawing.Point(1116, 42);
+            this.buttonReset.Location = new System.Drawing.Point(1674, 65);
+            this.buttonReset.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonReset.Name = "buttonReset";
-            this.buttonReset.Size = new System.Drawing.Size(59, 61);
+            this.buttonReset.Size = new System.Drawing.Size(88, 94);
             this.buttonReset.TabIndex = 109;
             this.buttonReset.TabStop = false;
             this.buttonReset.Click += new System.EventHandler(this.buttonReset_Click);
             // 
+            // answersCover
+            // 
+            this.answersCover.BackgroundImage = global::MasterMind.Properties.Resources.ballCover;
+            this.answersCover.Location = new System.Drawing.Point(292, 898);
+            this.answersCover.Name = "answersCover";
+            this.answersCover.Size = new System.Drawing.Size(240, 58);
+            this.answersCover.TabIndex = 110;
+            this.answersCover.TabStop = false;
+            // 
             // MasterMind
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MasterMind.Properties.Resources.MasterMind_GAME_playGround_Replay_Points2_0;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1224, 681);
+            this.ClientSize = new System.Drawing.Size(1836, 1048);
+            this.Controls.Add(this.answersCover);
             this.Controls.Add(this.buttonReset);
             this.Controls.Add(this.answerBall113);
             this.Controls.Add(this.answerBall112);
@@ -1465,7 +1586,6 @@
             this.Controls.Add(this.ballYellow);
             this.Controls.Add(this.ballRed);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MasterMind";
@@ -1580,6 +1700,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.answerBall61)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.answerBall60)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonReset)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.answersCover)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1695,5 +1816,6 @@
         private System.Windows.Forms.PictureBox answerBall61;
         private System.Windows.Forms.PictureBox answerBall60;
         private System.Windows.Forms.PictureBox buttonReset;
+        private System.Windows.Forms.PictureBox answersCover;
     }
 }
